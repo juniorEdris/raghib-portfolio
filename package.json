@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "build:css":"talwind build styles/globals.css -o styles/globals.css"
   },
   "dependencies": {
     "next": "latest",

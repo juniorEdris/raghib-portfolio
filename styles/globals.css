@@ -5,6 +5,9 @@
     --primary-font: 'Gotham', sans-serif;
     ;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 *,
 body {
