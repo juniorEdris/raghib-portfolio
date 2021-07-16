@@ -9,7 +9,13 @@ module.exports = {
     backgroundColor: theme => ({
       ...theme('colors'),
       'primary': '#FF4D00',
-     })
+    }),
+    extend: {
+      inset: {
+      // '-72.7':'-21.2rem'
+      '-72.7':'-300%'
+      }
+    }
   },
   variants: {
     extend: {},

@@ -7,8 +7,8 @@ const Middle = () => {
         router.push(link)
     }
     return ( 
-            <div className="middle_wrapper grid grid-auto md:grid-cols-2" >
-                <div className="text-white flex flex-col space-y-5 items-start">
+            <div className="middle_wrapper grid grid-auto md:grid-cols-2 pb-2" >
+                <div className="text-white flex flex-col space-y-5 items-start pt-9">
                     <div className="text-4xl">
                         <h2>Hi,Folks</h2>
                     </div>

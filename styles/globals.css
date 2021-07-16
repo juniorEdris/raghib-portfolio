@@ -863,7 +863,6 @@ body {
     box-sizing: border-box;
     position: relative;
     font-family: var(--primary-font);
-    /* overflow: auto; */
 }
 
 .home-bg {
@@ -886,5 +885,6 @@ body {
 }
 
 .middle_wrapper {
-    min-height: calc(100vh - 58px);
+    /* min-height: calc(100vh - 58px); */
+    /* min-height: 100vh; */
 }
