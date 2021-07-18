@@ -1,13 +1,20 @@
 import { useRouter } from 'next/dist/client/router'
 import Image from 'next/image'
+import classes from '../../styles/Home.module.css'
 const Middle = () => {
     const router = useRouter()
     const link = 'https://drive.google.com/file/d/1BHCYDh0v1MZZ-wHoXlu87_G3FBTNDXmJ/view?usp=sharing'
     const resume = () => { 
         router.push(link)
     }
+    const description = 
+    `I am a frontend developer. Familiar with Javascript core
+    programming language. I code React js/Next js framework and codes wonderfull web applications with most of my passion.
+    It’s so interesting working on projects where I play with my passion.I
+    LOVE tech tasks and learning new technologies.I use my ideas and logics to solve any
+    programming bugs. Contact me through my social sites and query about the services. Thank you`
     return ( 
-            <div className="middle_wrapper grid grid-auto md:grid-cols-2 pb-2" >
+            <div className={`${classes.middle_wrapper} grid grid-auto md:grid-cols-2 pb-2`} >
                 <div className="text-white flex flex-col space-y-5 items-start pt-9">
                     <div className="text-4xl">
                         <h2>Hi,Folks</h2>
@@ -20,7 +27,7 @@ const Middle = () => {
                     </div>
                     <div className="text-2xl">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis natus suscipit beatae voluptate, velit aliquam molestias cupiditate. Ipsa recusandae molestiae voluptas esse hic excepturi, eveniet dolores tempora. Praesentium nesciunt similique, aperiam placeat atque perferendis. Provident eligendi ut fugit quaerat impedit dolore obcaecati, laborum repellendus consectetur voluptate voluptatum saepe minus voluptas.
+                            {description}
                         </p>
                     </div>
                     <div className="text-2xl">

@@ -48,7 +48,7 @@ const Menu = () => {
                             </a>
                         </Link>
                     </li>
-                    <li className='mb-2'>
+                    {/*<li className='mb-2'>
                         <Link href="/demo">
                             <a >
                             <svg width="48" height="48" viewBox="0 0 57 58" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -65,7 +65,7 @@ const Menu = () => {
                             </a>
                         </Link>
                     </li>
-                    {/* <li className='mb-2'>
+                     <li className='mb-2'>
                         <Link href="/">
                             <a >
                             <svg width="48" height="48" viewBox="0 0 57 57" fill="none" xmlns="http://www.w3.org/2000/svg">

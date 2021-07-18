@@ -1,0 +1,26 @@
+/* My own css ++++++++++++++++++++++++++++++++++++++++*/
+
+
+.home_bg {
+    background: linear-gradient(84.94deg, #030B16 35.84%, #06234A 96.26%);
+}
+
+.contact_span {
+    position: relative;
+    font-size: 0.8rem;
+}
+
+.contact_span::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 30px;
+    border-bottom: 2px solid var(--theme-color);
+}
+
+.middle_wrapper {
+    /* min-height: calc(100vh - 58px); */
+    /* min-height: 100vh; */
+}
