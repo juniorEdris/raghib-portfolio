@@ -1,4 +1,4 @@
-// import 'tailwindcss/tailwind.css'
+import 'tailwindcss/tailwind.css'
 import Menu from '../Components/Primary/Menu'
 import '../styles/globals.css'
 import Header from '../Components/Header/index';
@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
     <div className="relative overflow-hidden">
       <Header />
       <Component {...pageProps} />
-      <Menu />
+      {/* <Menu /> */}
       <Footer/>
     </div>
   )

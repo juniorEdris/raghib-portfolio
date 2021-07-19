@@ -23,7 +23,7 @@ const Middle = () => {
                         <h2>I'm Raghib</h2>
                     </div>
                     <div className="text-5xl">
-                        <h2>a Frontend Developer</h2>
+                        <h2>Frontend Developer</h2>
                     </div>
                     <div className="text-2xl">
                         <p>

@@ -1,0 +1,21 @@
+
+/* 
+        HEADING CSS STARTS HERE
+*/
+.primary_page_heading_one span{
+    position: relative;
+}
+.primary_page_heading_one span::after{
+    content: '';
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    top: -19%;
+    left: -10px;
+    border: 1px solid #111;
+    z-index: -1;
+}
+
+/* 
+        HEADING CSS ENDS HERE
+*/

@@ -1,0 +1,11 @@
+.lists ul li{
+    position: relative;
+    line-height: 1.5 !important;
+}
+.lists ul li::before{
+    content: '\f0da';
+    margin-right: 1rem;
+    font-family:"Font Awesome 5 Free";
+    font-weight:600;
+    color: var(--theme-color);
+}
