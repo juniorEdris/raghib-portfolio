@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import About from '../Components/About'
 import Home from '../Components/Home'
+import Container from '../Components/Primary/Container'
 
 export default function LandingPage() {
   return (
@@ -12,7 +13,9 @@ export default function LandingPage() {
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossOrigin="anonymous"></link>
       </Head>
       <Home />
-      <About/>
+      <Container>
+        <About/>
+      </Container>
 
     </div>
   )

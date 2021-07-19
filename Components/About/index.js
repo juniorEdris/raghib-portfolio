@@ -45,7 +45,7 @@ const About = () => {
                         <Image src='/assets/images/about_page/about01.png' alt='' width={'645px'} height={'471px'}/>
                     </div>
                     <div className={`right_section`}>
-                        <div className={`stack_container flex flex-wrap items-center justify-center`}>
+                        <div className={`stack_container flex flex-wrap items-center justify-center md:justify-start`}>
                             {images.map(image => (
                                 <Image key={image.id} src={image.image} alt={image.name} height={120} width={120}/>
                             ))}

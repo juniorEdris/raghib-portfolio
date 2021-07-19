@@ -4,7 +4,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "build:css":"tailwind build styles/globals.css -o styles/globals.css"
+    "build:css":"tailwind build styles/all.css -o styles/globals.css"
   },
   "dependencies": {
     "next": "latest",
