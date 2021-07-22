@@ -4,10 +4,27 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
+    font-family: 'Gotham', sans-serif;
+    font-family: 'Gotham Black', sans-serif;
+    font-family: 'Gotham Light', sans-serif;
+    font-family: 'Gotham Thin', sans-serif;
+    font-family: 'Gotham XLight', sans-serif;
+    font-family: 'Gotham Ultra', sans-serif;
+    font-family: 'Gotham Book', sans-serif;
+*/
 :root {
+    /* ALL COLORS */
     --theme-color: #FF4D00;
+    --dark-color: #030B16;
+    /* ALL FONTS */
     --primary-font: 'Gotham', sans-serif;
-    ;
+    --primary-font-black: 'Gotham Black', sans-serif;
+    --primary-font-light: 'Gotham Light', sans-serif;
+    --primary-font-thin: 'Gotham Thin', sans-serif;
+    --primary-font-x-light: 'Gotham XLight', sans-serif;
+    --primary-font-ultra: 'Gotham Ultra', sans-serif;
+    --primary-font-book: 'Gotham Book', sans-serif;
 }
 *,
 body {

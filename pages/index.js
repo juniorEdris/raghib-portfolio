@@ -2,6 +2,7 @@ import Head from 'next/head'
 import About from '../Components/About'
 import Home from '../Components/Home'
 import Container from '../Components/Primary/Container'
+import ProjectRecords from '../Components/ProjectRecords'
 
 export default function LandingPage() {
   return (
@@ -14,7 +15,8 @@ export default function LandingPage() {
       </Head>
       <Home />
       <Container>
-        <About/>
+        <About />
+        <ProjectRecords/>
       </Container>
 
     </div>

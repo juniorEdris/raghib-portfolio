@@ -1,0 +1,16 @@
+.project_card_wrapper{
+    position: relative;
+    height: 250px;
+}
+.project_card_wrapper:hover .project_card_img{
+    display: none;
+}
+.project_card_btn{
+    display: none;
+    height: max-content;
+    width: 100%;
+    background-color: var(--dark-color);
+}
+.project_card_wrapper:hover .project_card_btn{
+    display: block;
+}
