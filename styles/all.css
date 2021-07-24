@@ -4,15 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/*
-    font-family: 'Gotham', sans-serif;
-    font-family: 'Gotham Black', sans-serif;
-    font-family: 'Gotham Light', sans-serif;
-    font-family: 'Gotham Thin', sans-serif;
-    font-family: 'Gotham XLight', sans-serif;
-    font-family: 'Gotham Ultra', sans-serif;
-    font-family: 'Gotham Book', sans-serif;
-*/
 :root {
     /* ALL COLORS */
     --theme-color: #FF4D00;
@@ -32,4 +23,10 @@ body {
     box-sizing: border-box;
     position: relative;
     font-family: var(--primary-font) !important;
+}
+.dark_color{
+    color: var(--dark-color);
+}
+.primary_color{
+    color: var(--theme-color);
 }
